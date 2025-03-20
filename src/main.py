@@ -18,7 +18,7 @@ from langchain.docstore.document import Document
 import pandas as pd
 from PIL import Image
 import pytesseract
-from database import init_db, add_message, get_chat_history
+from databases import Database, init_db, add_message, get_chat_history
 import sqlite3
 from langchain.memory import ConversationBufferMemory
 
